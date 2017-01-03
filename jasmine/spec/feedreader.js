@@ -1,5 +1,3 @@
-//https://github.com/JenniferMead/frontend-nanodegree-feedreader/blob/master/jasmine/spec/feedreader.js
-//https://discussions.udacity.com/t/testing-css-transitions/181853/2
 //https://discussions.udacity.com/t/menu-visibility-test/187928/6
 //https://discussions.udacity.com/t/stuck-on-step-14/192050/2
 /* feedreader.js
