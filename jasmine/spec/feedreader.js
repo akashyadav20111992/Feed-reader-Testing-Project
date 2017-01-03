@@ -110,20 +110,21 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+         var feed1 , feed2;
          beforeEach(function(done){
            loadFeed(1, function(){
+             feed2 = $('.feed').html;
              done();
            });
          });
-         var feed1 , feed2;
          it('new feed is actually loaded' , function(){
 
            loadFeed(0, function(){
              feed1 = $('.feed').html();
            });
-           loadFeed(1, function(){
+           /*loadFeed(1, function(){
              feed2 = $('.feed').html();
-           });
+           });*/
            expect(feed1).not.toEqual(feed2);
            done();
          });
